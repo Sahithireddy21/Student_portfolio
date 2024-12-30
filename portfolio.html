@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:white;
+    height:auto;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(145, 107, 207);
+}
+
+li {
+  float: left;  
+}
+
+li a {
+  display: block;
+  color:white;
+  font-size:25px;
+  text-align: center;
+  padding-right:100px;
+  padding: 15px 70px ;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:rgb(175, 144, 208);
+}
+.h{
+  float:left;
+  width:60%;
+  text-align:center;
+  padding-top:170px;
+  height:300px;
+
+  
+}
+.hrt{
+  float:right;
+  width:40%;
+  padding-top:30px;
+  height:440px;  
+}
+
+.w{
+  width:100%;
+  
+height:auto;
+  padding-top:150px;
+}
+
+.flex-container{
+  display:flex;
+ flex-direction:row;
+  align-content:center;
+  padding-left:20px;
+}
+.flex-container>div{
+  background-color:rgb(245, 231, 240);
+  height:50px;
+  width:750px;
+  margin:10px;
+  border-radius:15px;
+  font-size:25px;
+  text-align:center;
+  
+}
+.g{
+  padding-left:50px;
+  font-size:25px;
+  line-height:1.5;
+
+}
+.pro{
+  display:flex;
+  flex-direction:column;
+  
+}
+.pro>div{
+background-color:rgb(240, 236, 249);
+height:200px;
+width:1350px;
+margin:10px;
+padding:20px;
+border-radius:15px;
+}
+.cont{
+  
+  margin:10px;
+  font-size:25px;
+  line-height:1.5;
+  padding-top:10px;
+  padding-left:100px;
+}
+
+</style>
+</head>
+<body>
+    <div >
+        <ul> 
+            <li ><a href="#portfolio">PORTFOLIO</a></li>
+              <li><a  href="#about">ABOUT ME</a></li>
+             <li><a href="#skills">SKILLS</a></li>
+             <li><a href="#projects">PROJECTS</a></li>
+             <li><a href="#contact">CONTACT</a></li>
+             </ul>
+     </div>
+     <section id="about">
+      <div class="h">
+        
+       
+       <p style="font-size:40px;font-weight:bold;font-family: sans-serif; ">Hello! I am 
+          <span style="font-size:40px;color:rgb(227, 62, 112);"><b> SAHITHI REDDY</b></span></p><br>
+          <p style="font-weight:lighter;font-size:25px;">I am a third year undergraduate student at SRM University, AP,<br> keenly interested in coding and web development.</p>
+        </div>
+          <div class="hrt">
+          <img src="https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=626&ext=jpg" width="400px" height="400px">
+          </div>
+      </section>
+    <section id="skills" >
+      <div class="w">
+        <h style="font-size:33px;font-family:sans-serif;font-weight:bold;padding-left:120px;">SKILLS</h><br><br>
+
+  <div class="flex-container">
+          <div >
+           <p style="padding-top:10px;">C/C++</p>
+          </div>
+          <div>
+            <p style="padding-top:10px;">Data Structures and Algorithms</p>
+        </div>
+        <div>
+          <p style="padding-top:10px;">Web Development</p>
+        </div>
+        <div>
+          <p style="padding-top:10px;">Database Management Systems</p>
+        </div>
+</div>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="g">
+      <br><h style="font-size:35px;font-family:sans-serif;font-weight:bold;padding-left:60px;">PROJECTS</h><br><br>
+        <div class="pro">
+        <div>
+        <h3>1.Election Voting System:   </h3>  
+          <p> Developed a c program for a college project.  
+           Worked as a team of 3. We developed a program which provides user with various options where they can choose to vote, find 
+          leading or lowest candidates etc.. </p><br><br>
+          </div>
+          <div>   <h3> 2.WWF Web Project:  </h3>                                                                                                        
+           <p> Developed a website that aims to conserve wildlife and also helps local communities. The 
+            platform serves as a hub for saving and supporting animals worldwide. 
+           The WWF website allows the user to donate and also gives an overview of endangered species. 
+             Worked as a group of 3. Technologies used: HTML | CSS | JS | PHP  </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="contact">
+      <div class="cont">
+        <h style="font-size:33px;font-family:sans-serif;font-weight:bold;">CONTACT INFORMATION</h><br><br>
+<p>Name: Sahithi Reddy</p>
+<p>Email: sahithi1764@gmail.com</p>
+<p>Phone No: 780102675</p>
+      </div>
+    </section>
+    
+    </body>
+    </html>
